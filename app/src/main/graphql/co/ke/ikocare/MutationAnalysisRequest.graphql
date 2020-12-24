@@ -1,0 +1,39 @@
+query MutationAnalysisRequest($mutations:[String]!) {
+    currentVersion { text, publishDate },
+    mutationsAnalysis(mutations: $mutations) {
+        # Begin of mutationsAnalysis fragment
+        validationResults {
+            level,
+            message
+        },
+        drugResistance {
+            gene { name },
+            drugScores {
+                drugClass { name },
+                drug { name, displayAbbr },
+                score,
+                level,
+                text,
+                partialScores {
+                    mutations {
+                        text
+                    },
+                    score
+                }
+            },
+            mutationsByTypes {
+                mutationType,
+                mutations {
+                    text
+                }
+            }
+            commentsByTypes {
+                commentType,
+                comments {
+                    text
+                }
+            }
+        }
+        # End of mutationsAnalysis fragment
+    }
+}

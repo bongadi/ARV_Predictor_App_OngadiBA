@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_d_home"
+            android:title="@string/menu_home"
+            android:color="@color/colorPrimary"/>
+<!--        <item-->
+<!--            android:id="@+id/nav_invite"-->
+<!--            android:icon="@drawable/ic_invite_friends"-->
+<!--            android:title="@string/invite_friends"-->
+<!--            android:color="@color/colorPrimary"/>-->
+<!--        <item-->
+<!--            android:id="@+id/nav_services"-->
+<!--            android:icon="@drawable/ic_new_list"-->
+<!--            android:title="@string/menu_services"-->
+<!--            android:color="@color/colorPrimary"/>-->
+<!--        <item-->
+<!--            android:id="@+id/nav_faqs"-->
+<!--            android:icon="@drawable/ic_questions"-->
+<!--            android:title="@string/faqs"-->
+<!--            android:color="@color/colorPrimary"/>-->
+<!--        <item-->
+<!--            android:id="@+id/nav_profile"-->
+<!--            android:icon="@drawable/ic_single_user"-->
+<!--            android:title="@string/menu_profile"-->
+<!--            android:color="@color/colorPrimary"/>-->
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:title="@string/menu_logout"
+            android:color="@color/colorPrimary"/>
+    </group>
+
+</menu>

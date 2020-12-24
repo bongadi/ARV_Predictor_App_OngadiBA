@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="query_suggestions">
+        <item>Hair Services</item>
+        <item>Waxing Services</item>
+        <item>Facial Services</item>
+        <item>Nail Services</item>
+    </string-array>
+</resources>

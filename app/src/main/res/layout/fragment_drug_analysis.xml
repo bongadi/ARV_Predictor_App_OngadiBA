@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context=".fragments.DrugAnalysis">
+
+    <!--    <androidx.cardview.widget.CardView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:background="@drawable/search_tv"-->
+    <!--        app:cardElevation="10dp"-->
+    <!--        app:cardCornerRadius="45dp"-->
+    <!--        android:layout_margin="10dp"-->
+    <!--        >-->
+    <!--        <EditText-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_weight="4.2"-->
+    <!--            android:background="@drawable/search_tv"-->
+    <!--            android:hint="@string/search_your_services"-->
+    <!--            android:inputType="text"-->
+    <!--            android:padding="10dp"-->
+    <!--            android:textColor="@color/colorPrimary"-->
+    <!--            android:textSize="14sp"-->
+    <!--            android:drawableLeft="@drawable/ic_search"/>-->
+    <!--    </androidx.cardview.widget.CardView>-->
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/analysis_app_bar"
+        android:background="@color/colorWhite"
+        android:layout_weight="0.8"
+        >
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/analysis_tab"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:tabSelectedTextColor="@color/colorPrimary"
+            app:tabTextColor="@color/colorBlack"
+            android:background="@color/colorWhite"
+            >
+        </com.google.android.material.tabs.TabLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/analysis_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9.2"
+        android:foregroundGravity="center"
+        />
+
+
+
+</LinearLayout>

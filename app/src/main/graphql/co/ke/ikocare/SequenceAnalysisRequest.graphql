@@ -1,0 +1,172 @@
+query SequenceAnalysisRequest($sequences: [UnalignedSequenceInput]!) {
+    currentVersion { text, publishDate },
+    sequenceAnalysis(sequences: $sequences) {
+        # Begin of sequenceAnalysis fragment
+        inputSequence {
+            header,
+            sequence,
+            MD5,
+            SHA512
+        },
+        validationResults {
+            level,
+            message
+        },
+        alignedGeneSequences {
+            gene {
+                name,
+                refSequence,
+                length,
+                drugClasses {
+                    name,
+                    fullName,
+                    drugs {
+                        name,
+                        displayAbbr,
+                        fullName
+                    }
+                },
+                mutationTypes
+            },
+            firstAA,
+            lastAA,
+            firstNA,
+            lastNA,
+            matchPcnt,
+            prettyPairwise {
+                positionLine,
+                refAALine,
+                alignedNAsLine,
+                mutationLine
+            },
+            mutations {
+                reference,
+                position,
+                AAs,
+                triplet,
+                insertedNAs,
+                isInsertion,
+                isDeletion,
+                isIndel,
+                isAmbiguous,
+                isApobecMutation,
+                isApobecDRM,
+                hasStop,
+                isUnusual,
+                types,
+                primaryType,
+                comments {
+                    boundMutation { AAs },
+                    type,
+                    text
+                },
+                text,
+                shortText
+            },
+            APOBEC: mutations(filterOptions: [APOBEC]) {
+                position,
+                AAs,
+                text
+            },
+            APOBEC_DRM: mutations(filterOptions: [APOBEC_DRM]) {
+                text
+            },
+            DRM: mutations(filterOptions: [DRM]) {
+                text
+            },
+            SDRM: mutations(filterOptions: [SDRM]) {
+                text
+            },
+            unusualMutations: mutations(filterOptions: [UNUSUAL]) {
+                text
+            },
+            treatmentSelectedMutations: mutations(
+                filterOptions: [PI_TSM, NRTI_TSM, NNRTI_TSM, INSTI_TSM]
+            ) {
+                text
+            },
+            frameShifts {
+                position,
+                isInsertion,
+                isDeletion,
+                size,
+                NAs,
+                text
+            }
+        },
+        firstTenCloseSubtypes: subtypesV2(first: 10) {
+            displayWithoutDistance,
+            distancePcnt,
+            referenceAccession
+        },
+        bestMatchingSubtype { display },
+        mixturePcnt,
+        mutations {
+            position,
+            AAs,
+            shortText
+        },
+        frameShifts {
+            text
+        },
+        drugResistance {
+            gene {
+                name,
+                refSequence,
+                length,
+                drugClasses { name },
+                mutationTypes
+            },
+            drugScores {
+                drugClass {
+                    name,
+                    fullName,
+                    drugs {
+                        name,
+                        displayAbbr,
+                        fullName
+                    }
+                },
+                drug { displayAbbr },
+                score,
+                level,
+                text,
+                partialScores {
+                    mutations {
+                        text
+                    },
+                    score
+                }
+            },
+            mutationsByTypes {
+                mutationType,
+                mutations {
+                    reference,
+                    position,
+                    AAs,
+                    triplet,
+                    insertedNAs,
+                    isInsertion,
+                    isDeletion,
+                    isIndel,
+                    isAmbiguous,
+                    isApobecMutation,
+                    isApobecDRM,
+                    hasStop,
+                    isUnusual,
+                    text,
+                    shortText
+                }
+            }
+            commentsByTypes {
+                commentType,
+                comments {
+                    type,
+                    text,
+                    highlightText
+                }
+            }
+        }
+        # End of sequenceAnalysis fragment
+    }
+}

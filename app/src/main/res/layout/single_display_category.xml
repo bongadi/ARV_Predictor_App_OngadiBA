@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/top_service_layout"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:clickable="true"
+    android:focusable="true">
+
+    <TextView
+        android:id="@+id/category_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:gravity="center"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="@string/category"
+        android:textColor="@color/colorBlack"
+        android:textStyle="bold"
+        android:textSize="21sp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/drug_display_recycler"
+        android:background="@drawable/buton_primary_lining"
+        android:nestedScrollingEnabled="false"
+        android:layout_margin="5dp"
+        android:padding="10dp">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</LinearLayout>

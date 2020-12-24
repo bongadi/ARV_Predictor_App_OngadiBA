@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context=".fragments.DrugSelector">
+    <ProgressBar
+        android:background="@color/colorWhite"
+        android:id="@+id/dash_progress"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="6dp"
+        android:layout_gravity="center"
+        android:indeterminateTintMode="src_atop"
+        android:indeterminateTint="@color/colorAccent"
+        android:visibility="gone"/>
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/pullToRefresh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ScrollView
+            android:id="@+id/dash_scroll_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:background="@color/colorWhite">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorWhite"
+                android:orientation="vertical"
+                android:weightSum="10">
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_margin="10dp"-->
+<!--                    android:orientation="vertical"-->
+<!--                    android:weightSum="5">-->
+
+<!--&lt;!&ndash;                    <com.google.android.material.textfield.TextInputLayout&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;                        app:passwordToggleEnabled="true"&ndash;&gt;-->
+<!--&lt;!&ndash;                        app:passwordToggleDrawable="@drawable/ic_eye"&ndash;&gt;-->
+<!--&lt;!&ndash;                        app:passwordToggleTint="@color/colorPrimary"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:layout_height="wrap_content">&ndash;&gt;-->
+<!--&lt;!&ndash;                        <EditText&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:id="@+id/tv_sequence"&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:layout_height="47dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:layout_marginStart="8dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:layout_marginLeft="8dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:layout_marginTop="2dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:layout_marginEnd="8dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:layout_marginRight="8dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:layout_marginBottom="24dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:background="@drawable/customedge"&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:hint="@string/pass"&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:inputType="textPassword"&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:paddingStart="10dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:paddingLeft="10dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:textColor="@color/colorBlack"&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:textColorHint="@color/colorGrey"&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:drawableLeft="@drawable/ic_lock"&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:textSize="15sp" />&ndash;&gt;-->
+<!--&lt;!&ndash;                    </com.google.android.material.textfield.TextInputLayout>&ndash;&gt;-->
+
+<!--&lt;!&ndash;                    <Button&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:id="@+id/btn_sub_seq"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:layout_marginStart="8dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:layout_marginLeft="8dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:layout_marginTop="4dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:layout_marginEnd="8dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:layout_marginRight="8dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:layout_marginBottom="16dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:background="@drawable/custombt"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:text="@string/send"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:textColor="@color/colorWhite" />&ndash;&gt;-->
+
+<!--                </LinearLayout>-->
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/drug_display_options"
+                    android:textColor="@color/colorBlack"
+                    android:textStyle="bold"
+                    android:textSize="17sp" />
+
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/drug_category_recycler"
+                    android:background="@color/colorWhite"
+                    android:nestedScrollingEnabled="false"
+                    android:layout_margin="10dp">
+
+                </androidx.recyclerview.widget.RecyclerView>
+                <Button
+                    android:id="@+id/btn_submit_drugs"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="16dp"
+                    android:background="@drawable/custombt"
+                    android:text="@string/save"
+                    android:textColor="@color/colorWhite" />
+            </LinearLayout>
+        </ScrollView>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+</LinearLayout>

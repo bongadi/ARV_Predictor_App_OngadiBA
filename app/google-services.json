@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "432900705008",
+    "firebase_url": "https://ikocare.firebaseio.com",
+    "project_id": "ikocare",
+    "storage_bucket": "ikocare.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:432900705008:android:afa6f9f56b7e7f88209035",
+        "android_client_info": {
+          "package_name": "co.ke.ikocare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "432900705008-fft2a2oi061014sada5nl4spnnr8f94k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co.ke.ikocare",
+            "certificate_hash": "b124a67cb0c4d7cc093e93a310e40fb58f5ecb4f"
+          }
+        },
+        {
+          "client_id": "432900705008-3p10bccn72rg8ip0lf19iv62g95i8nj2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBG3DTXpyE55Ti0Lp4fjA1gLA2P8iZU0Q8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "432900705008-3p10bccn72rg8ip0lf19iv62g95i8nj2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

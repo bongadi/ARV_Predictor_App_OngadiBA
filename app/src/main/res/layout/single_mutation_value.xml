@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/top_service_layout"
+    android:orientation="vertical"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:background="@drawable/general_ripple_background">
+        <TextView
+            android:id="@+id/tv_mut_val"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/val"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@drawable/bt_custom_primary"
+            android:textColor="@color/colorWhite"
+            android:textSize="17sp"
+            />
+
+
+
+</LinearLayout>

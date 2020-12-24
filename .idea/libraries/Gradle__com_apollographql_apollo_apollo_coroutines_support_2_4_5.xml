@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.apollographql.apollo:apollo-coroutines-support:2.4.5">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.apollographql.apollo/apollo-coroutines-support/2.4.5/5876bae4297b6d401bd95065c02faf1a9ca48964/apollo-coroutines-support-2.4.5.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.apollographql.apollo/apollo-coroutines-support/2.4.5/4eca3664ddbeae67f036e1d617dc49e5ba01f18c/apollo-coroutines-support-2.4.5-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.apollographql.apollo/apollo-coroutines-support/2.4.5/12969fe8f2281dab1685a8afcd45905aa9c70a8/apollo-coroutines-support-2.4.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

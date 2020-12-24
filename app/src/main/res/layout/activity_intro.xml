@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DCDCDC"
+    android:theme="@style/SplashTheme"
+    tools:context=".activities.Intro">
+
+    <LinearLayout
+        android:id="@+id/gen_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:weightSum="10">
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/welcome_viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="5dp"
+            android:layout_weight="9">
+
+        </androidx.viewpager.widget.ViewPager>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/colorAccent"
+            android:visibility="visible"/>
+
+        <LinearLayout
+            android:id="@+id/rand_layouts"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:background="#DCDCDC"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_weight="0.8"
+            android:weightSum="6">
+
+            <TextView
+                android:id="@+id/bt_previous"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="@string/previous"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="14sp"
+                android:visibility="gone"
+                android:layout_weight="1"
+                android:textColor="@color/colorAccent"
+                android:background="@drawable/intro_btn_background"/>
+
+
+            <LinearLayout
+                android:id="@+id/layoutDots"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:background="#DCDCDC"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_weight="4">
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/bt_action"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="@string/skip"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="14sp"
+                android:layout_weight="1"
+                android:textColor="@color/colorAccent"
+                android:background="@drawable/intro_btn_background"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

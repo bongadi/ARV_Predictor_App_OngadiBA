@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.gms:play-services-appindexing:8.4.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d2a9f484712dc31c6c0c198c7cef9011/jetified-play-services-appindexing-8.4.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f7a3c1aba4b6037a553230926311255c/jetified-play-services-appindexing-8.4.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/05061f4eb0e4abc4babc9ee53b676b6d/jetified-play-services-appindexing-8.4.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/82b24e29c7aaea9f90eb207f3ab03071/jetified-play-services-appindexing-8.4.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/82b24e29c7aaea9f90eb207f3ab03071/jetified-play-services-appindexing-8.4.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/82b24e29c7aaea9f90eb207f3ab03071/jetified-play-services-appindexing-8.4.0/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

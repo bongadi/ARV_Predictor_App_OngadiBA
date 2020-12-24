@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="RESPONSE" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="69a0e34f-204e-4e57-89d4-a1cf4228a2e1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/graphql/co/ke/ikocare/MutationAnalysisRequest.graphql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/graphql/co/ke/ikocare/SequenceAnalysisRequest.graphql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/co/ke/ikocare/AppoloClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/co/ke/ikocare/activities/IntroNew.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/co/ke/ikocare/activities/MutationResultActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/co/ke/ikocare/activities/SequenceAnalysisResults.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/co/ke/ikocare/adapters/DrugAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/co/ke/ikocare/adapters/DrugCategoryAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/co/ke/ikocare/adapters/MutationResultsAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/co/ke/ikocare/adapters/MutationSelectionAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/co/ke/ikocare/adapters/MutationValueAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/co/ke/ikocare/adapters/MyAnalysisAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/co/ke/ikocare/adapters/SequenceResultAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/co/ke/ikocare/adapters/SingleInhibitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/co/ke/ikocare/apollomodels/Comment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/co/ke/ikocare/apollomodels/CommentsByType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/co/ke/ikocare/apollomodels/CurrentVersion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/co/ke/ikocare/apollomodels/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/co/ke/ikocare/apollomodels/Drug.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/co/ke/ikocare/apollomodels/DrugClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/co/ke/ikocare/apollomodels/DrugResistance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/co/ke/ikocare/apollomodels/DrugScore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/co/ke/ikocare/apollomodels/Gene.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/co/ke/ikocare/apollomodels/Mutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/co/ke/ikocare/apollomodels/MutationLoad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/co/ke/ikocare/apollomodels/MutationsAnalysis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/co/ke/ikocare/apollomodels/MutationsByType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/co/ke/ikocare/apollomodels/PartialScore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/co/ke/ikocare/fragments/DrugAnalysis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/co/ke/ikocare/fragments/DrugSelector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/co/ke/ikocare/fragments/MutationAnalysisi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/co/ke/ikocare/models/Drug/Drug.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/co/ke/ikocare/models/Drug/DrugCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/co/ke/ikocare/models/mutation/MutationData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/co/ke/ikocare/type/SequenceAnalysis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/co/ke/ikocare/utilities/DefinedData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/co/ke/ikocare/utilities/MyApolloClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v21/new_primary_lining_white.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v21/primary_lining.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v21/primary_solid.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/b1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/b2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/b3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/b4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/me_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/new_primary_lining_white.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/primary_lining.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/primary_solid.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_intro_new.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_mutation_result.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_sequence_analysis_results.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/error_dialogue.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_drug_analysis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_drug_selector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_mutation_analysisi.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_sequence_analysis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/mut_prog_dialog.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/single_display_category.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/single_display_drug.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/single_inhibitor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/single_mutation.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/single_mutation_result.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/single_mutation_value.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/single_sequence_result.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/ic_launcher_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/co/ke/ikocare/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/co/ke/ikocare/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/co/ke/ikocare/activities/ExpertLocation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/co/ke/ikocare/activities/ExpertNotifiedFeedback.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/co/ke/ikocare/activities/Intro.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/co/ke/ikocare/activities/Intro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/co/ke/ikocare/activities/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/co/ke/ikocare/activities/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/co/ke/ikocare/adapters/ActiveServiceAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/co/ke/ikocare/adapters/CompletedServiceAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/co/ke/ikocare/adapters/FaqAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/co/ke/ikocare/adapters/MyServiceAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/co/ke/ikocare/adapters/PendingServiceAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/co/ke/ikocare/adapters/TopProductAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/co/ke/ikocare/adapters/TopServiceAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/co/ke/ikocare/adapters/TrendingProductAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/co/ke/ikocare/adapters/TrendingServiceAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/co/ke/ikocare/fragments/DashFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/co/ke/ikocare/fragments/Faq.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/co/ke/ikocare/fragments/InviteFriend.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/co/ke/ikocare/fragments/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/co/ke/ikocare/fragments/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/co/ke/ikocare/fragments/MyService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/co/ke/ikocare/fragments/MyServiceActive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/co/ke/ikocare/fragments/MyServiceCmpleted.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/co/ke/ikocare/fragments/MyServicePending.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/co/ke/ikocare/fragments/ProductDashFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/co/ke/ikocare/fragments/Profile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/co/ke/ikocare/models/home/TopProduct.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/co/ke/ikocare/models/home/TopService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/co/ke/ikocare/models/home/TrendingProduct.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/co/ke/ikocare/models/home/TrendingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/co/ke/ikocare/models/map/DistanceTime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/co/ke/ikocare/models/map/ExpertMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/co/ke/ikocare/models/map/MapModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/co/ke/ikocare/models/map/RequestModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/co/ke/ikocare/models/tracking/ActionResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/co/ke/ikocare/models/tracking/TrackData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/co/ke/ikocare/utilities/ApiClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/co/ke/ikocare/utilities/ApiClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/co/ke/ikocare/utilities/ApiInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/co/ke/ikocare/utilities/ApiInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/co/ke/ikocare/utilities/PreferenceManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/co/ke/ikocare/utilities/PreferenceManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/co/ke/ikocare/utilities/Session.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/co/ke/ikocare/utilities/Session.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/co/ke/ikocare/utilities/StaticVariables.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/co/ke/ikocare/utilities/StaticVariables.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/active_service_row.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_expert_location.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_expert_notified_feedback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_intro.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_intro.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash_screen.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash_screen.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/completed_service_row.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/expert_confirmation_popup.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/experts_around_not_found_for_service.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/experts_busy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/faq_row.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_dash.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_faq.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_my_service.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_my_service_active.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_my_service_cmpleted.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_my_service_pending.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_product_dash.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_profile.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_register.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_register.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_welcome_one.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_welcome_one.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_welcome_three.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_welcome_three.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_welcome_two.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_welcome_two.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/payment_pop_up.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/pending_service_row.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/price_pop_up.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/rate_service_popup.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/review_message_popup.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/top_product_item.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/top_service_item.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/trending_product.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/trending_services.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/waiting_acceptance.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/main_drawer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/menu/main_drawer.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/app">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="IkocareMobile" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="IkocareMobile" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="IkocareMobile" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="android" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="IkocareMobile" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="IkocareMobile" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build setup" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="IkocareMobile" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="cleanup" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="IkocareMobile" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="help" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="IkocareMobile" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="install" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="IkocareMobile" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="IkocareMobile" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="verification" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="IkocareMobile" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="IkocareMobile" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="IkocareMobile" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="android" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="IkocareMobile" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="IkocareMobile" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="cleanup" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="IkocareMobile" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="help" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="IkocareMobile" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="install" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="IkocareMobile" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="IkocareMobile" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="verification" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="valueResourceFile" />
+        <option value="resourceFile" />
+        <option value="layoutResourceFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1bDL1cctvZdw1ux8eoCcK3TgHby" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="PsdUISettings">
+    <option name="MODULE_TAB" value="Properties" />
+  </component>
+  <component name="RecentsManager">
+    <key name="android.template.1650907027">
+      <recent name="co.ke.ikocare" />
+    </key>
+    <key name="android.template.-1355592302">
+      <recent name="co.ke.ikocare.activities" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/raw" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/anim" />
+    </key>
+    <key name="android.template.packageName">
+      <recent name="co.ke.ikocare.activities" />
+    </key>
+    <key name="android.template.-1014383960">
+      <recent name="co.ke.ikocare.activities" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="co.ke.ikocare.type" />
+      <recent name="co.ke.ikocare" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="co.ke.ikocare.type" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="IkocareMobile.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="69a0e34f-204e-4e57-89d4-a1cf4228a2e1" name="Default Changelist" comment="" />
+      <created>1588161504609</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588161504609</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="225" y="105" width="950" height="537" key="#PSD" timestamp="1603343785921">
+      <screen x="0" y="27" width="1366" height="707" />
+    </state>
+    <state x="225" y="105" width="950" height="537" key="#PSD/0.27.1366.707@0.27.1366.707" timestamp="1603343785921" />
+    <state x="323" y="182" width="710" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604916728806">
+      <screen x="0" y="27" width="1366" height="707" />
+    </state>
+    <state x="323" y="182" width="710" height="403" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1366.707@0.27.1366.707" timestamp="1604916728806" />
+    <state x="491" y="88" width="374" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1606902346992">
+      <screen x="0" y="27" width="1366" height="707" />
+    </state>
+    <state x="491" y="88" width="374" height="592" key="#com.intellij.ide.util.MemberChooser/0.27.1366.707@0.27.1366.707" timestamp="1606902346992" />
+    <state x="436" y="248" width="494" height="279" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1606890452602">
+      <screen x="0" y="27" width="1366" height="707" />
+    </state>
+    <state x="436" y="248" width="494" height="279" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.27.1366.707@0.27.1366.707" timestamp="1606890452602" />
+    <state x="416" y="129" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608806458211">
+      <screen x="0" y="27" width="1366" height="707" />
+    </state>
+    <state x="416" y="129" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1366.707@0.27.1366.707" timestamp="1608806458211" />
+    <state x="100" y="127" width="1166" height="507" key="AVDManager" timestamp="1603300350559">
+      <screen x="0" y="27" width="1366" height="707" />
+    </state>
+    <state x="100" y="127" width="1166" height="507" key="AVDManager/0.27.1366.707@0.27.1366.707" timestamp="1603300350559" />
+    <state x="266" y="138" width="824" height="491" key="AndroidCreateResourceFileDialog" timestamp="1608171846780">
+      <screen x="0" y="27" width="1366" height="707" />
+    </state>
+    <state x="266" y="138" width="824" height="491" key="AndroidCreateResourceFileDialog/0.27.1366.707@0.27.1366.707" timestamp="1608171846780" />
+    <state x="500" y="190" width="386" height="528" key="AndroidCreateXmlResourceDialog" timestamp="1608606064710">
+      <screen x="0" y="27" width="1366" height="707" />
+    </state>
+    <state x="500" y="190" width="386" height="528" key="AndroidCreateXmlResourceDialog/0.27.1366.707@0.27.1366.707" timestamp="1608606064710" />
+    <state x="461" y="127" width="472" height="520" key="FileChooserDialogImpl" timestamp="1608194054174">
+      <screen x="0" y="27" width="1366" height="707" />
+    </state>
+    <state x="461" y="127" width="472" height="520" key="FileChooserDialogImpl/0.27.1366.707@0.27.1366.707" timestamp="1608194054174" />
+    <state width="1320" height="62" key="GridCell.Tab.0.bottom" timestamp="1606014232551">
+      <screen x="0" y="27" width="1366" height="707" />
+    </state>
+    <state width="1320" height="62" key="GridCell.Tab.0.bottom/0.27.1366.707@0.27.1366.707" timestamp="1606014232551" />
+    <state width="1320" height="62" key="GridCell.Tab.0.center" timestamp="1606014232550">
+      <screen x="0" y="27" width="1366" height="707" />
+    </state>
+    <state width="1320" height="62" key="GridCell.Tab.0.center/0.27.1366.707@0.27.1366.707" timestamp="1606014232550" />
+    <state width="1320" height="62" key="GridCell.Tab.0.left" timestamp="1606014232548">
+      <screen x="0" y="27" width="1366" height="707" />
+    </state>
+    <state width="1320" height="62" key="GridCell.Tab.0.left/0.27.1366.707@0.27.1366.707" timestamp="1606014232548" />
+    <state width="1320" height="62" key="GridCell.Tab.0.right" timestamp="1606014232551">
+      <screen x="0" y="27" width="1366" height="707" />
+    </state>
+    <state width="1320" height="62" key="GridCell.Tab.0.right/0.27.1366.707@0.27.1366.707" timestamp="1606014232551" />
+    <state x="268" y="127" width="819" height="514" key="NewModule_or_Project.wizard" timestamp="1606179023609">
+      <screen x="0" y="27" width="1366" height="707" />
+    </state>
+    <state x="268" y="127" width="819" height="514" key="NewModule_or_Project.wizard/0.27.1366.707@0.27.1366.707" timestamp="1606179023609" />
+    <state x="172" y="27" key="SettingsEditor" timestamp="1606178844506">
+      <screen x="0" y="27" width="1366" height="707" />
+    </state>
+    <state x="172" y="27" key="SettingsEditor/0.27.1366.707@0.27.1366.707" timestamp="1606178844506" />
+    <state x="455" y="160" width="446" height="447" key="chooseDestDirectoryDialog" timestamp="1608194909683">
+      <screen x="0" y="27" width="1366" height="707" />
+    </state>
+    <state x="455" y="160" width="446" height="447" key="chooseDestDirectoryDialog/0.27.1366.707@0.27.1366.707" timestamp="1608194909683" />
+    <state x="429" y="135" width="497" height="497" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1606889537440">
+      <screen x="0" y="27" width="1366" height="707" />
+    </state>
+    <state x="429" y="135" width="497" height="497" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.27.1366.707@0.27.1366.707" timestamp="1606889537440" />
+    <state x="372" y="119" width="621" height="522" key="find.popup" timestamp="1608697398498">
+      <screen x="0" y="27" width="1366" height="707" />
+    </state>
+    <state x="372" y="119" width="621" height="522" key="find.popup/0.27.1366.707@0.27.1366.707" timestamp="1608697398498" />
+    <state x="491" y="138" width="373" height="492" key="refactoring.ChangeSignatureDialog" timestamp="1604931731433">
+      <screen x="0" y="27" width="1366" height="707" />
+    </state>
+    <state x="491" y="138" width="373" height="492" key="refactoring.ChangeSignatureDialog/0.27.1366.707@0.27.1366.707" timestamp="1604931731433" />
+    <state x="347" y="165" key="run.anything.popup" timestamp="1604932541750">
+      <screen x="0" y="27" width="1366" height="707" />
+    </state>
+    <state x="347" y="165" key="run.anything.popup/0.27.1366.707@0.27.1366.707" timestamp="1604932541750" />
+    <state x="346" y="54" width="672" height="678" key="search.everywhere.popup" timestamp="1606894788616">
+      <screen x="0" y="27" width="1366" height="707" />
+    </state>
+    <state x="346" y="54" width="672" height="678" key="search.everywhere.popup/0.27.1366.707@0.27.1366.707" timestamp="1606894788616" />
+  </component>
+</project>

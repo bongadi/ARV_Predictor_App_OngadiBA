@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.gms:play-services-fitness:8.4.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6f9aa5eb6ae64f5b131e64ae9cf1e5e8/jetified-play-services-fitness-8.4.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2df5725e016f3e3db009851fbb92df59/jetified-play-services-fitness-8.4.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/287f0f0a3f6244826b575e543ab94e03/jetified-play-services-fitness-8.4.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0b6fa53df1d3a16c071866967cb2f53f/jetified-play-services-fitness-8.4.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0b6fa53df1d3a16c071866967cb2f53f/jetified-play-services-fitness-8.4.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0b6fa53df1d3a16c071866967cb2f53f/jetified-play-services-fitness-8.4.0/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

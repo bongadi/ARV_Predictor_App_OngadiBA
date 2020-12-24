@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00979A</color>
+    <color name="colorPrimaryDark">#00679B</color>
+    <color name="colorAccent">#FF39BC</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorGrey">#DCDCDC</color>
+    <color name="colorRipple">#097D72</color>
+    <color name="colorGreyRipple">#A9A9A9</color>
+    <color name="colorRipple2">#C71585</color>
+    <color name="colorTvRipple">#f2f2f2</color>
+    <color name="wel3bg">#FFFFEE</color>
+    <color name="wel2bg">#CCDDEE</color>
+    <color name="wel1bg">#DCDCDC</color>
+
+    <color name="dot_inactive_screen1">#00679B</color>
+    <color name="dot_inactive_screen2">#00679B</color>
+    <color name="dot_inactive_screen3">#00679B</color>
+    <color name="dot_inactive_screen4">#00679B</color>
+
+    <color name="dot_active_screen1">#FF39BC</color>
+    <color name="dot_active_screen2">#FF39BC</color>
+    <color name="dot_active_screen3">#FF39BC</color>
+    <color name="dot_active_screen4">#FF39BC</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_active_screen1</item>
+        <item>@color/dot_active_screen2</item>
+        <item>@color/dot_active_screen3</item>
+        <item>@color/dot_active_screen4</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_inactive_screen1</item>
+        <item>@color/dot_inactive_screen2</item>
+        <item>@color/dot_inactive_screen3</item>
+        <item>@color/dot_inactive_screen4</item>
+    </array>
+</resources>

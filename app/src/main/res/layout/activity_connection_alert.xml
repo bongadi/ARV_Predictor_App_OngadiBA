@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.ConnectionAlert">
+
+    <ImageView
+        android:id="@+id/alert_img"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginBottom="16dp"
+        app:srcCompat="@drawable/ic_new_logo"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/alert_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/alert_text"
+        android:layout_gravity="center"
+        android:textSize="15sp"
+        android:textColor="@color/colorPrimary"/>
+    <Button
+        android:id="@+id/bt_retry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/custombt"
+        android:text="@string/retry"
+        android:textColor="@color/colorWhite" />
+    <ProgressBar
+        android:id="@+id/retry_progress"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="6dp"
+        android:layout_gravity="center"
+        android:indeterminateTintMode="src_atop"
+        android:indeterminateTint="@color/colorAccent"
+        android:visibility="visible"/>
+
+</LinearLayout>

@@ -1,0 +1,193 @@
+<resources>
+    <string name="app_name">ARVPredictor</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome_one_text">Locate Experts</string>
+    <string name="welcome_one_txt">Search To Locate A beauty Expert. It is easy</string>
+    <string name="welcome_two_title_text">Get Accepted</string>
+    <string name="welcome_two_text">The matching expert will accept your request and set off to serve you.</string>
+    <string name="welcome_three_title_text">Enjoy Quality</string>
+    <string name="welcome_three_txt">You will always like it. The services are quality.Enjoy!</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="get_started">GET STARTED</string>
+    <string name="welcome">Welcome</string>
+    <string name="show_around">Let us show you around</string>
+    <string name="do_it_text">YES LET\'S DO IT</string>
+    <string name="finish">FINISH</string>
+    <string name="previous">PREV</string>
+
+    <string name="pref_login_status">com.abc.preference_login_status</string>
+    <string name="login_fragment">Login</string>
+    <string name="sign_in">Sign In</string>
+    <string name="email">Email</string>
+    <string name="phone_number"> e.g +254 712345678</string>
+    <string name="pass">Password</string>
+    <string name="pass_forgot">Forgot Password?</string>
+    <string name="register">Register</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Drug Selection</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="home_second">Home Second</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="con_pass">Confirm Password</string>
+    <string name="sign_in_back">BACK TO SIGN IN</string>
+    <string name="menu_services">My Services</string>
+    <string name="menu_requests">Your Requests</string>
+    <string name="menu_settings">Settings</string>
+    <string name="top_services">Top Services</string>
+    <string name="hair">Hair Service</string>
+    <string name="user_name">John Doe</string>
+    <string name="user_email">john.doe@gmail.com</string>
+    <string name="afrinet_telecom">FROM AFRINET TELECOM</string>
+    <string name="search_text">Search</string>
+    <string name="menu_profile">My Profile</string>
+    <string name="invite_friends">Invite Friends</string>
+    <string name="faqs">FAQ\'s</string>
+    <string name="alert_text">You are not connected to the internet</string>
+    <string name="retry">RETRY</string>
+    <string name="txterrorcalleractivity">Error!,Caller Activity is Missing</string>
+    <string name="menu_logout">Logout</string>
+    <string name="nail">Nail Services</string>
+    <string name="waxing">Waxing</string>
+    <string name="error_phone">Phone Number is not valid</string>
+    <string name="ver_info">Kindly enter the numeric code we have sent you to proceed.</string>
+    <string name="ver_code">Code</string>
+    <string name="verify">VERIFY</string>
+    <string name="or_text">OR</string>
+    <string name="resend_code">RESEND CODE</string>
+    <string name="proceed">PROCEED</string>
+    <string name="code_length_error">Verification code must be 6 characters</string>
+    <string name="what_service">What service are you looking for today?</string>
+    <string name="top_products">Top Products</string>
+    <string name="recently_offered">Recently Offered</string>
+    <string name="recently_bought">Recent Products</string>
+    <string name="trending_services">Trending around you.</string>
+    <string name="services">Services</string>
+    <string name="products">Products</string>
+    <string name="service_title">Service Title</string>
+    <string name="count">(127)</string>
+    <string name="what_product">Which product can we help you find?</string>
+    <string name="search_beauty_products">Search Beauty Products</string>
+    <string name="search_beauty_services">Search Beauty Services</string>
+    <string name="recent_products">Recent</string>
+    <string name="rating">5.0</string>
+    <string name="txtexpand">Expand</string>
+    <string name="txtq">Q:</string>
+    <string name="name">John Doe</string>
+    <string name="phone_text">Phone Number</string>
+    <string name="phone_placeholder">0712345678</string>
+    <string name="email_placeholder">john.doe@gmail.com</string>
+    <string name="email_text">Email Address</string>
+    <string name="search_your_services">Search Your Services</string>
+    <string name="title_activity_expert_location">Map</string>
+    <string name="hair_experts_around_you">Hair Experts Around You</string>
+    <string name="submit_request">Submit Request</string>
+    <string name="search_by_name">Search By Name</string>
+    <string name="invite_brief">You can earn up to KSh. 500 by inviting your friends to use our app. Ivite today and start earning.</string>
+    <string name="share_now">Share Now</string>
+    <string name="search_services">Search...</string>
+    <string name="service_description">Description</string>
+    <string name="app_label">IkoCare</string>
+    <string name="search_hint">Search...</string>
+    <string name="select_price_range">Select Cost Range</string>
+    <string name="price_from">Min Cost:</string>
+    <string name="price_to">Max Cost:</string>
+    <string name="ok">Submit</string>
+    <string name="cancel">Cnacel</string>
+    <string name="loading_experts">Fetching Experts....</string>
+    <string name="jane_doe">Jane Doe</string>
+    <string name="match_info">"Request Accepted By: "</string>
+    <string name="track_request">Track Your Request</string>
+    <string name="headline">Professional Nail Services</string>
+    <string name="exit">Exit</string>
+    <string name="sorry">Sorry, all experts around you are currently booked</string>
+    <string name="waiting_acceptance">One of our experts will accept your request and set off to serve you.</string>
+    <string name="step_desc">This a description for what is going on with your request.</string>
+    <string name="sorry_service">Sorry, we could not find an expert around you who offeres this service.</string>
+    <!--    <string name="service_title">Service Title</string>-->
+    <string name="call_expert">Call Expert</string>
+    <string name="mins_away">Your Expert is 25 mins away.</string>
+    <string name="review">Review</string>
+    <string name="confirm_arrived">Confirm Meet Up</string>
+    <string name="cancel_request">Cancel Request</string>
+    <string name="confirm_complete">Mark As Complete</string>
+    <string name="make_payment">Make Payment</string>
+    <string name="make_review">Rate This Service</string>
+    <string name="expert_is">Your Expert is </string>
+    <string name="away">away</string>
+    <string name="confirm_payment_title">Please Confirm Before Submitting</string>
+    <string name="servive">Service:</string>
+    <string name="amount">Amount</string>
+    <string name="confirm">Confirm</string>
+    <string name="amount_dummy">KES 1</string>
+    <string name="home">Home</string>
+    <string name="cancelled">This request has been cancelled.</string>
+    <string name="rate_now">Rate Now</string>
+    <string name="cancel_rating">Cancel</string>
+    <string name="by_expert_name">by Expert Name</string>
+    <string name="review_msg">Type A Message</string>
+    <string name="drug_display_options">Drug Display Options</string>
+    <string name="send">Submit Query</string>
+    <string name="drug">DRUG</string>
+    <string name="category">CATEGORY</string>
+    <string name="save">SAVE</string>
+    <string name="mutations">MUTATIONS</string>
+    <string name="input_sequence">SEQUENCE</string>
+    <string name="header">Header(Optional)</string>
+    <string name="input_sequence_text">Input Sequence</string>
+    <string name="analyse">Analyze</string>
+    <string name="rev_transcripase">Reverse Transcripase</string>
+    <string name="protase">Protase</string>
+    <string name="integrase">Integrase</string>
+    <string name="input_mutation">Input Mutation(s)</string>
+    <string name="num">10</string>
+    <string name="val">D</string>
+    <string name="mutation_analysis_results">Mutation Analysis Results</string>
+    <string name="drug_resistance_interpretation">Drug resistance interpretation: TT</string>
+    <string name="db_version">HIVDB 8.9-1 (2019-10-25000)</string>
+    <string name="pi_major_resistance_mutations">PI Major Resistance Mutations:MMMM</string>
+    <string name="pi_accessory_resistance_mutations">PI Accessory Resistance Mutations:None</string>
+    <string name="other_mutations">Other Mutations:None</string>
+    <string name="mutation_scoring">Mutation scoring:Scoring</string>
+    <string name="analyse_sample">Analyze Sample</string>
+    <string name="sample_headers">AY030412 AY030413</string>
+    <string name="fetching_data">Fetching Data....</string>
+    <string name="sequence_analysis_results">Sequence Analysis Results</string>
+    <string name="sequence_summary">Sequence Summary</string>
+    <string name="sequence_quality_assessment">Sequence Quality Assessment</string>
+    <string name="chart_unavailable">Chart Unavailable</string>
+    <string name="error_mut">Error while fetching data.</string>
+    <string name="welcome_one_t">Inputs.</string>
+    <string name="welcome_one_tx">Takes in Protase, Reverse Transcripase and Integrase Mutations and/or Sequences.</string>
+    <string name="welcome_three_title_t">Accurate.</string>
+    <string name="welcome_three_tx">Get accurate results that you can rely on to give relevant and available prescription to the patient.</string>
+    <string name="welcome_two_title_t">Results.</string>
+    <string name="welcome_two_tx">Returns Inferred levels of resistance to selected Protase, Nucleoside,Non-Neucleoside and Integrase inhibitor for accurate HIV/AIDS management at the point of care..</string>
+    <string name="slogan">The Doctors\' Companion</string>
+    <string name="copyright">© Ongadi B.A.</string>
+    <string name="clear_inputs">Clear Inputs</string>
+
+    <string-array name="mutation_letters">
+        <item>E</item>
+        <item>G</item>
+        <item>H</item>
+        <item>N</item>
+        <item>S</item>
+        <item>T</item>
+    </string-array>
+
+</resources>
+
+
