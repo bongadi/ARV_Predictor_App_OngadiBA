@@ -148,8 +148,8 @@
     <string name="header">Header(Optional)</string>
     <string name="input_sequence_text">Input Sequence</string>
     <string name="analyse">Analyze</string>
-    <string name="rev_transcripase">Reverse Transcripase</string>
-    <string name="protase">Protase</string>
+    <string name="rev_transcripase">Reverse Transcriptase</string>
+    <string name="protase">Protease</string>
     <string name="integrase">Integrase</string>
     <string name="input_mutation">Input Mutation(s)</string>
     <string name="num">10</string>
